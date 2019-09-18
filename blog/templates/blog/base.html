@@ -8,6 +8,7 @@
         <title>Django Girls blog</title>
     </head>
     <body>
+        
             <div class="page-header">
                 {% if user.is_authenticated %}
                     <a href="{% url 'post_new' %}" class="top-menu"title="Add a new Blog"><span class="glyphicon glyphicon-plus"></span></a>
